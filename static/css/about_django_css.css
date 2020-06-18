@@ -1,0 +1,15 @@
+#content {
+                  width:100%;}
+
+        #logo {width: 300px;}
+
+        h2 {color:pink;}
+
+        img {display:block;
+            margin-left:auto;
+            margin-right:auto;}
+
+        h4 {color:blue;}
+
+        h3 {text-align:center;
+        color:green;}

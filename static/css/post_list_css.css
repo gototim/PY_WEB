@@ -1,0 +1,56 @@
+ /*
+ #content{font-family: 'Coda Caption', sans-serif;
+            width:auto;}
+        h1 {text-align:center;
+        color:orange;}
+        #post {border:3px solid black;
+        width:650px;
+        height:600px;
+        text-align:center;}
+        img {
+        width:350px;
+        height:400px;}
+        h2 {text-align:center;
+        color:orange}
+        span {color: orange;}
+
+        a {
+        display:block;}
+*/
+
+#content_pl {
+    font-family: 'Coda Caption', sans-serif;
+    width:95%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+
+
+}
+
+h2 {
+    text-align:center;
+}
+
+#post_pl {
+    text-align:center;
+
+    width:450px;
+
+    display:inline-block;
+
+
+
+
+}
+
+#a_pl {
+    display:inline-block;
+}
+
+#img_pl {
+    width:400px;
+    height:400px;
+}
+
+

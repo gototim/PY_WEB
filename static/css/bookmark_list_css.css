@@ -1,0 +1,42 @@
+        #content{
+            text-align:center;
+
+            font-family: 'Raleway', sans-serif;
+            width:900px; height:900px;
+            margin: auto;
+            }
+
+        #title{
+            font-family: 'Do Hyeon', sans-serif;
+            font-size: 95px;
+            color: red;
+            }
+
+        .small{
+            font-size: 20px;
+            color: gray;
+            }
+
+        a{
+            text-decoration: none;
+            color: dimgray;
+            }
+
+        li:hover{
+            background-color: rgba(255, 20, 147, 0.1);
+            }
+
+        ul{
+           list-style:none;
+            font-size: 30px;
+            padding:10px;
+           }
+
+        li{
+           width: 700px;
+           margin: auto;
+           margin-bottom: 30px;
+           text-align: center;
+           }
+
+        

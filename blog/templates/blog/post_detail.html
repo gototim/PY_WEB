@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div id="content_pd">
+
+    <h3>{{ object.title }}</h3>
+    <div id="text">
+        <p><span>Description:</span> {{ object.description }}</p>
+        <p><span>Create Date:</span> {{ object.create_date }}</p>
+        <p><span>Modify Date:</span> {{ object.modify_date }}</p>
+        <img id="img_pd" src="{{ object.image.url }}" width="600" height="600">
+        <div id="disqus_thread"></div>
+    </div>
+    <a href="{% url 'blog_update' post.id %}">
+        <button>UPDATE</button>
+    </a>
+    <a href="{% url 'blog_delete' post.id %}">
+        <button>DELETE</button>
+    </a>
+</div>
+
+
+</body>
+</html>
+
+{% endblock %}

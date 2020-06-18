@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div id="content_pl">
+    <h1>블로그`</h1>
+    {% for post in object_list %}
+    <div id="post_pl">
+        <h2>{{ post.title }}</h2>
+        <a id="a_pl" href="{% url 'blog_detail' post.id %}">
+            <img id="img_pl" src="{{ post.image.url }}">
+        </a>
+        <p><span>Discription:</span> {{ post.description }}</p>
+        <p><span>Create Date:</span> {{ post.create_date }}</p>
+        <p><span>Modify Date:</span> {{ post.modify_date }}</p>
+    </div>
+    {% endfor %}
+</div>
+    <a href="{% url 'blog_create' %}">
+        <button>CREATE</button>
+    </a>
+</body>
+</html>
+{% endblock %}
